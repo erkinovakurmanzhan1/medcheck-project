@@ -1,0 +1,58 @@
+@media print {
+   body {
+      margin: 0;
+      padding: 0;
+   }
+
+   @page {
+      size: A4;
+   }
+   .print-header-title {
+      font-size: 15pt;
+      font-weight: 500;
+      margin-left: 20px;
+   }
+   .print-container {
+      width: 220mm;
+      height: 280mm;
+      margin: 0 auto 0 50px;
+   }
+   .print-content {
+      color: black;
+   }
+   .print-logo-box {
+      width: 165mm;
+   }
+   .attention-box {
+      margin-top: 20mm;
+      width: 120mm;
+   }
+   .attention-title {
+      font-size: 22pt;
+   }
+   .print-title {
+      font-size: 18pt;
+      width: 200mm;
+   }
+   .patient-box {
+      font-size: 15pt;
+      font-weight: 600;
+      margin: 20px 20px 0 0;
+   }
+   .server-box {
+      font-size: 18pt;
+      font-weight: 600;
+      margin: 20px 20px 0 0;
+      width: 100%;
+   }
+   .order-box {
+      margin-top: 20px;
+   }
+   .logo-box {
+      width: 200px;
+      margin-top: 30px;
+   }
+   span {
+      font-weight: 500;
+   }
+}
